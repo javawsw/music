@@ -1,0 +1,1555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09065836887D4AFC4DB56B03 /* Pods_MyCloudMusicTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 291C870A97DF09636875ED0B /* Pods_MyCloudMusicTests.framework */; };
+		192497062B4BC4A9003AC407 /* SuperToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192497052B4BC4A9003AC407 /* SuperToast.swift */; };
+		192497082B4BEEF6003AC407 /* ExceptionHandleUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192497072B4BEEF6003AC407 /* ExceptionHandleUtil.swift */; };
+		1924970B2B4D211A003AC407 /* DefaultRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1924970A2B4D211A003AC407 /* DefaultRepository.swift */; };
+		193E6ED02B063E5A0014FB99 /* SuperDateUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193E6ECF2B063E5A0014FB99 /* SuperDateUtil.swift */; };
+		193E6ED32B06421E0014FB99 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 193E6ED52B06421E0014FB99 /* Localizable.strings */; };
+		193E6EDA2B06433A0014FB99 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 193E6EDC2B06433A0014FB99 /* InfoPlist.strings */; };
+		193E6EE12B08E0740014FB99 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193E6EE02B08E0740014FB99 /* R.generated.swift */; };
+		193E6EE42B08E42B0014FB99 /* SuperUIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193E6EE32B08E42B0014FB99 /* SuperUIColorExtension.swift */; };
+		193E6EE62B08E7330014FB99 /* SuperUIThemeExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193E6EE52B08E7330014FB99 /* SuperUIThemeExtension.swift */; };
+		193E6EE92B0B5C6A0014FB99 /* BaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193E6EE82B0B5C6A0014FB99 /* BaseController.swift */; };
+		193E6EEB2B0B5D3A0014FB99 /* BaseCommonController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193E6EEA2B0B5D3A0014FB99 /* BaseCommonController.swift */; };
+		193E6EED2B0B81B50014FB99 /* BaseLogicController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193E6EEC2B0B81B50014FB99 /* BaseLogicController.swift */; };
+		193E6EEF2B0B8A5D0014FB99 /* BaseTitleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193E6EEE2B0B8A5D0014FB99 /* BaseTitleController.swift */; };
+		193E6EF42B0B9E9F0014FB99 /* TermServiceDialogController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193E6EF32B0B9E9F0014FB99 /* TermServiceDialogController.swift */; };
+		193E6EF92B0BA7880014FB99 /* ViewFactoryUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193E6EF82B0BA7880014FB99 /* ViewFactoryUtil.swift */; };
+		193E6EFB2B0BA83C0014FB99 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193E6EFA2B0BA83C0014FB99 /* Constant.swift */; };
+		193E6EFF2B0BB2720014FB99 /* GuideController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193E6EFE2B0BB2720014FB99 /* GuideController.swift */; };
+		193E6F012B0C9BEA0014FB99 /* DefaultPreferenceUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193E6F002B0C9BE90014FB99 /* DefaultPreferenceUtil.swift */; };
+		193E6F052B0C9FE00014FB99 /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193E6F042B0C9FE00014FB99 /* MainController.swift */; };
+		193E6F092B0CB41C0014FB99 /* LoginHomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193E6F082B0CB41C0014FB99 /* LoginHomeController.swift */; };
+		193E6F212B0DC7C30014FB99 /* UIView+YJBannerViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 193E6F0C2B0DC7C20014FB99 /* UIView+YJBannerViewExt.m */; };
+		193E6F222B0DC7C30014FB99 /* YJBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 193E6F0E2B0DC7C20014FB99 /* YJBannerView.m */; };
+		193E6F232B0DC7C30014FB99 /* YJHollowPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 193E6F122B0DC7C20014FB99 /* YJHollowPageControl.m */; };
+		193E6F242B0DC7C30014FB99 /* YJAbstractDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 193E6F132B0DC7C20014FB99 /* YJAbstractDotView.m */; };
+		193E6F252B0DC7C30014FB99 /* YJAnimatedDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 193E6F142B0DC7C20014FB99 /* YJAnimatedDotView.m */; };
+		193E6F262B0DC7C30014FB99 /* YJBannerView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 193E6F192B0DC7C20014FB99 /* YJBannerView.bundle */; };
+		193E6F272B0DC7C30014FB99 /* YJBannerViewCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 193E6F1B2B0DC7C20014FB99 /* YJBannerViewCollectionView.m */; };
+		193E6F282B0DC7C30014FB99 /* YJBannerViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 193E6F1C2B0DC7C20014FB99 /* YJBannerViewCell.m */; };
+		193E6F292B0DC7C30014FB99 /* YJBannerViewFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 193E6F1F2B0DC7C20014FB99 /* YJBannerViewFooter.m */; };
+		193E6F2B2B0E418A0014FB99 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193E6F2A2B0E418A0014FB99 /* Config.swift */; };
+		193E6F2E2B0E43DD0014FB99 /* DefaultService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193E6F2D2B0E43DD0014FB99 /* DefaultService.swift */; };
+		193E6F322B0E449D0014FB99 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193E6F312B0E449D0014FB99 /* User.swift */; };
+		193E6F342B0E48F80014FB99 /* ParamUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193E6F332B0E48F80014FB99 /* ParamUtil.swift */; };
+		19A936D32B9852AF00402813 /* DiscoveryFooterViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A936D22B9852AF00402813 /* DiscoveryFooterViewCell.swift */; };
+		19A936D52B98569000402813 /* FooterData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A936D42B98569000402813 /* FooterData.swift */; };
+		19A936D82B9AF12700402813 /* SuperToolbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A936D72B9AF12700402813 /* SuperToolbarView.swift */; };
+		19AC74C72B0F97F0005679D6 /* SheetListResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AC74C62B0F97F0005679D6 /* SheetListResponse.swift */; };
+		19AC74C92B0F9911005679D6 /* PageResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AC74C82B0F9911005679D6 /* PageResponse.swift */; };
+		19AC74CD2B0F999D005679D6 /* Sheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AC74CC2B0F999D005679D6 /* Sheet.swift */; };
+		19AC74D02B146E8E005679D6 /* ObservableMoyaExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AC74CF2B146E8E005679D6 /* ObservableMoyaExtension.swift */; };
+		19C09A1D2B05055400156307 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C09A1C2B05055400156307 /* AppDelegate.swift */; };
+		19C09A262B05055600156307 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19C09A252B05055600156307 /* Assets.xcassets */; };
+		19C09A292B05055600156307 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19C09A272B05055600156307 /* LaunchScreen.storyboard */; };
+		19C09A342B05055600156307 /* MyCloudMusicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C09A332B05055600156307 /* MyCloudMusicTests.swift */; };
+		19C09A3E2B05055600156307 /* MyCloudMusicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C09A3D2B05055600156307 /* MyCloudMusicUITests.swift */; };
+		19C09A402B05055600156307 /* MyCloudMusicUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C09A3F2B05055600156307 /* MyCloudMusicUITestsLaunchTests.swift */; };
+		19C09A502B05089700156307 /* SplashController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C09A4F2B05089700156307 /* SplashController.swift */; };
+		19D9A08F2B46744A00965531 /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D9A08E2B46744A00965531 /* BaseModel.swift */; };
+		19D9A0912B4674CE00965531 /* BaseId.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D9A0902B4674CE00965531 /* BaseId.swift */; };
+		19D9A0932B4674FA00965531 /* BaseCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D9A0922B4674FA00965531 /* BaseCommon.swift */; };
+		19D9A0962B46782E00965531 /* ListResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D9A0952B46782E00965531 /* ListResponse.swift */; };
+		19D9A0982B46789900965531 /* BaseResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D9A0972B46789900965531 /* BaseResponse.swift */; };
+		19D9A09A2B46790400965531 /* DetailResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D9A0992B46790400965531 /* DetailResponse.swift */; };
+		19D9A09C2B467A0D00965531 /* Meta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D9A09B2B467A0D00965531 /* Meta.swift */; };
+		19D9A0A02B4680F800965531 /* Ad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D9A09F2B4680F800965531 /* Ad.swift */; };
+		19F833C42B57B06500903F1D /* DiscoveryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F833C32B57B06500903F1D /* DiscoveryController.swift */; };
+		19F833C82B57B09A00903F1D /* VideoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F833C72B57B09A00903F1D /* VideoController.swift */; };
+		19F833CC2B57B0BE00903F1D /* MeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F833CB2B57B0BE00903F1D /* MeController.swift */; };
+		19F833D02B57B10500903F1D /* FeedController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F833CF2B57B10500903F1D /* FeedController.swift */; };
+		19F833D42B57B12C00903F1D /* RoomController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F833D32B57B12C00903F1D /* RoomController.swift */; };
+		19F833D82B57D65100903F1D /* BannerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F833D72B57D65100903F1D /* BannerData.swift */; };
+		19F833DC2B60EB0900903F1D /* BaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F833DB2B60EB0900903F1D /* BaseTableViewCell.swift */; };
+		19F833DE2B60ED8400903F1D /* BannerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F833DD2B60ED8400903F1D /* BannerCell.swift */; };
+		19F833E02B60F41E00903F1D /* ResourceUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F833DF2B60F41E00903F1D /* ResourceUtil.swift */; };
+		19F833E22B62224400903F1D /* DiscoveryButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F833E12B62224400903F1D /* DiscoveryButtonCell.swift */; };
+		19F833E42B62234F00903F1D /* ButtonData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F833E32B62234F00903F1D /* ButtonData.swift */; };
+		19F833E72B622CA600903F1D /* DiscoveryButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F833E62B622CA600903F1D /* DiscoveryButtonView.swift */; };
+		19F833E92B661D9B00903F1D /* SheetGroupCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F833E82B661D9B00903F1D /* SheetGroupCell.swift */; };
+		19F833EB2B661F0600903F1D /* ItemTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F833EA2B661F0600903F1D /* ItemTitleView.swift */; };
+		19F833ED2B66214400903F1D /* SheetData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F833EC2B66214400903F1D /* SheetData.swift */; };
+		19F833F02B6625D700903F1D /* SuperImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F833EF2B6625D700903F1D /* SuperImageExtension.swift */; };
+		19F833F22B66392900903F1D /* BaseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F833F12B66392900903F1D /* BaseCollectionViewCell.swift */; };
+		19F833F42B663A4500903F1D /* SheetCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F833F32B663A4500903F1D /* SheetCell.swift */; };
+		19F833F72B663B3E00903F1D /* ViewCornerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F833F62B663B3E00903F1D /* ViewCornerExtension.swift */; };
+		19F833FA2B663C0300903F1D /* SuperConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F833F92B663C0300903F1D /* SuperConfig.swift */; };
+		19F833FC2B6A159D00903F1D /* ImageViewKingfisherExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F833FB2B6A159D00903F1D /* ImageViewKingfisherExtension.swift */; };
+		19F833FF2B6A167900903F1D /* SuperStringUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F833FE2B6A167900903F1D /* SuperStringUtil.swift */; };
+		19F834012B6A1B4400903F1D /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F834002B6A1B4400903F1D /* StringExtension.swift */; };
+		19F834032B6A6CD600903F1D /* SongGroupCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F834022B6A6CD600903F1D /* SongGroupCell.swift */; };
+		19F834072B6A6EEF00903F1D /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F834062B6A6EEF00903F1D /* Song.swift */; };
+		19F834092B6A709800903F1D /* SongData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F834082B6A709800903F1D /* SongData.swift */; };
+		19F8340B2B6A72A300903F1D /* DiscoverySongCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F8340A2B6A72A300903F1D /* DiscoverySongCell.swift */; };
+		5A176DA501D3830465C84D68 /* Pods_MyCloudMusic_MyCloudMusicUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58C6988A260F3C3D846A196F /* Pods_MyCloudMusic_MyCloudMusicUITests.framework */; };
+		6DAE7EB3710EEFCAD0751906 /* Pods_MyCloudMusic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8DD8B2536A7FC2AEB70461F /* Pods_MyCloudMusic.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		19C09A302B05055600156307 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19C09A112B05055400156307 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19C09A182B05055400156307;
+			remoteInfo = MyCloudMusic;
+		};
+		19C09A3A2B05055600156307 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19C09A112B05055400156307 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19C09A182B05055400156307;
+			remoteInfo = MyCloudMusic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D7AA8E51741F735229C2317 /* Pods-MyCloudMusicTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyCloudMusicTests.release.xcconfig"; path = "Target Support Files/Pods-MyCloudMusicTests/Pods-MyCloudMusicTests.release.xcconfig"; sourceTree = "<group>"; };
+		192497052B4BC4A9003AC407 /* SuperToast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperToast.swift; sourceTree = "<group>"; };
+		192497072B4BEEF6003AC407 /* ExceptionHandleUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExceptionHandleUtil.swift; sourceTree = "<group>"; };
+		1924970A2B4D211A003AC407 /* DefaultRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultRepository.swift; sourceTree = "<group>"; };
+		193E6ECF2B063E5A0014FB99 /* SuperDateUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperDateUtil.swift; sourceTree = "<group>"; };
+		193E6ED42B06421E0014FB99 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		193E6ED62B06423A0014FB99 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		193E6ED72B06423A0014FB99 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		193E6EDD2B0643460014FB99 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		193E6EDE2B06434F0014FB99 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		193E6EE02B08E0740014FB99 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = SOURCE_ROOT; };
+		193E6EE32B08E42B0014FB99 /* SuperUIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperUIColorExtension.swift; sourceTree = "<group>"; };
+		193E6EE52B08E7330014FB99 /* SuperUIThemeExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperUIThemeExtension.swift; sourceTree = "<group>"; };
+		193E6EE82B0B5C6A0014FB99 /* BaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseController.swift; sourceTree = "<group>"; };
+		193E6EEA2B0B5D3A0014FB99 /* BaseCommonController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCommonController.swift; sourceTree = "<group>"; };
+		193E6EEC2B0B81B50014FB99 /* BaseLogicController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseLogicController.swift; sourceTree = "<group>"; };
+		193E6EEE2B0B8A5D0014FB99 /* BaseTitleController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTitleController.swift; sourceTree = "<group>"; };
+		193E6EF02B0B9C240014FB99 /* MyCloudMusic-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyCloudMusic-Bridging-Header.h"; sourceTree = "<group>"; };
+		193E6EF32B0B9E9F0014FB99 /* TermServiceDialogController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermServiceDialogController.swift; sourceTree = "<group>"; };
+		193E6EF82B0BA7880014FB99 /* ViewFactoryUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewFactoryUtil.swift; sourceTree = "<group>"; };
+		193E6EFA2B0BA83C0014FB99 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		193E6EFE2B0BB2720014FB99 /* GuideController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideController.swift; sourceTree = "<group>"; };
+		193E6F002B0C9BE90014FB99 /* DefaultPreferenceUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultPreferenceUtil.swift; sourceTree = "<group>"; };
+		193E6F042B0C9FE00014FB99 /* MainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
+		193E6F082B0CB41C0014FB99 /* LoginHomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginHomeController.swift; sourceTree = "<group>"; };
+		193E6F0C2B0DC7C20014FB99 /* UIView+YJBannerViewExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+YJBannerViewExt.m"; sourceTree = "<group>"; };
+		193E6F0D2B0DC7C20014FB99 /* UIView+YJBannerViewExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+YJBannerViewExt.h"; sourceTree = "<group>"; };
+		193E6F0E2B0DC7C20014FB99 /* YJBannerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJBannerView.m; sourceTree = "<group>"; };
+		193E6F112B0DC7C20014FB99 /* YJAnimatedDotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJAnimatedDotView.h; sourceTree = "<group>"; };
+		193E6F122B0DC7C20014FB99 /* YJHollowPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJHollowPageControl.m; sourceTree = "<group>"; };
+		193E6F132B0DC7C20014FB99 /* YJAbstractDotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJAbstractDotView.m; sourceTree = "<group>"; };
+		193E6F142B0DC7C20014FB99 /* YJAnimatedDotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJAnimatedDotView.m; sourceTree = "<group>"; };
+		193E6F152B0DC7C20014FB99 /* YJHollowPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJHollowPageControl.h; sourceTree = "<group>"; };
+		193E6F162B0DC7C20014FB99 /* YJAbstractDotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJAbstractDotView.h; sourceTree = "<group>"; };
+		193E6F172B0DC7C20014FB99 /* YJBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJBannerView.h; sourceTree = "<group>"; };
+		193E6F192B0DC7C20014FB99 /* YJBannerView.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = YJBannerView.bundle; sourceTree = "<group>"; };
+		193E6F1B2B0DC7C20014FB99 /* YJBannerViewCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJBannerViewCollectionView.m; sourceTree = "<group>"; };
+		193E6F1C2B0DC7C20014FB99 /* YJBannerViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJBannerViewCell.m; sourceTree = "<group>"; };
+		193E6F1D2B0DC7C20014FB99 /* YJBannerViewFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJBannerViewFooter.h; sourceTree = "<group>"; };
+		193E6F1E2B0DC7C20014FB99 /* YJBannerViewCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJBannerViewCollectionView.h; sourceTree = "<group>"; };
+		193E6F1F2B0DC7C20014FB99 /* YJBannerViewFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJBannerViewFooter.m; sourceTree = "<group>"; };
+		193E6F202B0DC7C20014FB99 /* YJBannerViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJBannerViewCell.h; sourceTree = "<group>"; };
+		193E6F2A2B0E418A0014FB99 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		193E6F2D2B0E43DD0014FB99 /* DefaultService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultService.swift; sourceTree = "<group>"; };
+		193E6F312B0E449D0014FB99 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		193E6F332B0E48F80014FB99 /* ParamUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParamUtil.swift; sourceTree = "<group>"; };
+		19A936D22B9852AF00402813 /* DiscoveryFooterViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoveryFooterViewCell.swift; sourceTree = "<group>"; };
+		19A936D42B98569000402813 /* FooterData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterData.swift; sourceTree = "<group>"; };
+		19A936D72B9AF12700402813 /* SuperToolbarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperToolbarView.swift; sourceTree = "<group>"; };
+		19AC74C62B0F97F0005679D6 /* SheetListResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetListResponse.swift; sourceTree = "<group>"; };
+		19AC74C82B0F9911005679D6 /* PageResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageResponse.swift; sourceTree = "<group>"; };
+		19AC74CC2B0F999D005679D6 /* Sheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sheet.swift; sourceTree = "<group>"; };
+		19AC74CF2B146E8E005679D6 /* ObservableMoyaExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableMoyaExtension.swift; sourceTree = "<group>"; };
+		19C09A192B05055400156307 /* MyCloudMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyCloudMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		19C09A1C2B05055400156307 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		19C09A252B05055600156307 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		19C09A282B05055600156307 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		19C09A2A2B05055600156307 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19C09A2F2B05055600156307 /* MyCloudMusicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyCloudMusicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		19C09A332B05055600156307 /* MyCloudMusicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCloudMusicTests.swift; sourceTree = "<group>"; };
+		19C09A392B05055600156307 /* MyCloudMusicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyCloudMusicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		19C09A3D2B05055600156307 /* MyCloudMusicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCloudMusicUITests.swift; sourceTree = "<group>"; };
+		19C09A3F2B05055600156307 /* MyCloudMusicUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCloudMusicUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		19C09A4F2B05089700156307 /* SplashController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashController.swift; sourceTree = "<group>"; };
+		19D9A08E2B46744A00965531 /* BaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
+		19D9A0902B4674CE00965531 /* BaseId.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseId.swift; sourceTree = "<group>"; };
+		19D9A0922B4674FA00965531 /* BaseCommon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCommon.swift; sourceTree = "<group>"; };
+		19D9A0952B46782E00965531 /* ListResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListResponse.swift; sourceTree = "<group>"; };
+		19D9A0972B46789900965531 /* BaseResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseResponse.swift; sourceTree = "<group>"; };
+		19D9A0992B46790400965531 /* DetailResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailResponse.swift; sourceTree = "<group>"; };
+		19D9A09B2B467A0D00965531 /* Meta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meta.swift; sourceTree = "<group>"; };
+		19D9A09F2B4680F800965531 /* Ad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ad.swift; sourceTree = "<group>"; };
+		19F833C32B57B06500903F1D /* DiscoveryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoveryController.swift; sourceTree = "<group>"; };
+		19F833C72B57B09A00903F1D /* VideoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoController.swift; sourceTree = "<group>"; };
+		19F833CB2B57B0BE00903F1D /* MeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeController.swift; sourceTree = "<group>"; };
+		19F833CF2B57B10500903F1D /* FeedController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedController.swift; sourceTree = "<group>"; };
+		19F833D32B57B12C00903F1D /* RoomController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomController.swift; sourceTree = "<group>"; };
+		19F833D72B57D65100903F1D /* BannerData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerData.swift; sourceTree = "<group>"; };
+		19F833DB2B60EB0900903F1D /* BaseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTableViewCell.swift; sourceTree = "<group>"; };
+		19F833DD2B60ED8400903F1D /* BannerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerCell.swift; sourceTree = "<group>"; };
+		19F833DF2B60F41E00903F1D /* ResourceUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourceUtil.swift; sourceTree = "<group>"; };
+		19F833E12B62224400903F1D /* DiscoveryButtonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoveryButtonCell.swift; sourceTree = "<group>"; };
+		19F833E32B62234F00903F1D /* ButtonData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonData.swift; sourceTree = "<group>"; };
+		19F833E62B622CA600903F1D /* DiscoveryButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoveryButtonView.swift; sourceTree = "<group>"; };
+		19F833E82B661D9B00903F1D /* SheetGroupCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetGroupCell.swift; sourceTree = "<group>"; };
+		19F833EA2B661F0600903F1D /* ItemTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemTitleView.swift; sourceTree = "<group>"; };
+		19F833EC2B66214400903F1D /* SheetData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetData.swift; sourceTree = "<group>"; };
+		19F833EF2B6625D700903F1D /* SuperImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperImageExtension.swift; sourceTree = "<group>"; };
+		19F833F12B66392900903F1D /* BaseCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCollectionViewCell.swift; sourceTree = "<group>"; };
+		19F833F32B663A4500903F1D /* SheetCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetCell.swift; sourceTree = "<group>"; };
+		19F833F62B663B3E00903F1D /* ViewCornerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCornerExtension.swift; sourceTree = "<group>"; };
+		19F833F92B663C0300903F1D /* SuperConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperConfig.swift; sourceTree = "<group>"; };
+		19F833FB2B6A159D00903F1D /* ImageViewKingfisherExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewKingfisherExtension.swift; sourceTree = "<group>"; };
+		19F833FE2B6A167900903F1D /* SuperStringUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperStringUtil.swift; sourceTree = "<group>"; };
+		19F834002B6A1B4400903F1D /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		19F834022B6A6CD600903F1D /* SongGroupCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongGroupCell.swift; sourceTree = "<group>"; };
+		19F834062B6A6EEF00903F1D /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		19F834082B6A709800903F1D /* SongData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongData.swift; sourceTree = "<group>"; };
+		19F8340A2B6A72A300903F1D /* DiscoverySongCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverySongCell.swift; sourceTree = "<group>"; };
+		24531590674092FA1DEB045F /* Pods-MyCloudMusic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyCloudMusic.release.xcconfig"; path = "Target Support Files/Pods-MyCloudMusic/Pods-MyCloudMusic.release.xcconfig"; sourceTree = "<group>"; };
+		291C870A97DF09636875ED0B /* Pods_MyCloudMusicTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyCloudMusicTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B53CA8B2DE4E3CCF1E8F898 /* Pods-MyCloudMusic-MyCloudMusicUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyCloudMusic-MyCloudMusicUITests.debug.xcconfig"; path = "Target Support Files/Pods-MyCloudMusic-MyCloudMusicUITests/Pods-MyCloudMusic-MyCloudMusicUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		58979021BE914C5538BFF393 /* Pods-MyCloudMusic-MyCloudMusicUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyCloudMusic-MyCloudMusicUITests.release.xcconfig"; path = "Target Support Files/Pods-MyCloudMusic-MyCloudMusicUITests/Pods-MyCloudMusic-MyCloudMusicUITests.release.xcconfig"; sourceTree = "<group>"; };
+		58C6988A260F3C3D846A196F /* Pods_MyCloudMusic_MyCloudMusicUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyCloudMusic_MyCloudMusicUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CA67AD63F4B0EC511FC3382 /* Pods-MyCloudMusic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyCloudMusic.debug.xcconfig"; path = "Target Support Files/Pods-MyCloudMusic/Pods-MyCloudMusic.debug.xcconfig"; sourceTree = "<group>"; };
+		B8DD8B2536A7FC2AEB70461F /* Pods_MyCloudMusic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyCloudMusic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8FF1A79525F74086B28A40B /* Pods-MyCloudMusicTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyCloudMusicTests.debug.xcconfig"; path = "Target Support Files/Pods-MyCloudMusicTests/Pods-MyCloudMusicTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		19C09A162B05055400156307 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DAE7EB3710EEFCAD0751906 /* Pods_MyCloudMusic.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19C09A2C2B05055600156307 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09065836887D4AFC4DB56B03 /* Pods_MyCloudMusicTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19C09A362B05055600156307 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A176DA501D3830465C84D68 /* Pods_MyCloudMusic_MyCloudMusicUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11AAE288234580DB5CC1A014 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B8DD8B2536A7FC2AEB70461F /* Pods_MyCloudMusic.framework */,
+				58C6988A260F3C3D846A196F /* Pods_MyCloudMusic_MyCloudMusicUITests.framework */,
+				291C870A97DF09636875ED0B /* Pods_MyCloudMusicTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		192497092B4D2102003AC407 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				1924970A2B4D211A003AC407 /* DefaultRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		193E6ECC2B063E0B0014FB99 /* Vender */ = {
+			isa = PBXGroup;
+			children = (
+				19D9A0A12B4A8FF500965531 /* SuperUI */,
+				193E6F0A2B0DC7C20014FB99 /* YJBannerView */,
+				193E6ECD2B063E100014FB99 /* SuperSwift */,
+			);
+			path = Vender;
+			sourceTree = "<group>";
+		};
+		193E6ECD2B063E100014FB99 /* SuperSwift */ = {
+			isa = PBXGroup;
+			children = (
+				19F833FD2B6A166700903F1D /* String */,
+				193E6ECE2B063E1F0014FB99 /* Date */,
+			);
+			path = SuperSwift;
+			sourceTree = "<group>";
+		};
+		193E6ECE2B063E1F0014FB99 /* Date */ = {
+			isa = PBXGroup;
+			children = (
+				193E6ECF2B063E5A0014FB99 /* SuperDateUtil.swift */,
+			);
+			path = Date;
+			sourceTree = "<group>";
+		};
+		193E6EE22B08E4010014FB99 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				193E6EE32B08E42B0014FB99 /* SuperUIColorExtension.swift */,
+				193E6EE52B08E7330014FB99 /* SuperUIThemeExtension.swift */,
+				193E6F2A2B0E418A0014FB99 /* Config.swift */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		193E6EE72B0B5C4B0014FB99 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				193E6EE82B0B5C6A0014FB99 /* BaseController.swift */,
+				193E6EEA2B0B5D3A0014FB99 /* BaseCommonController.swift */,
+				193E6EEC2B0B81B50014FB99 /* BaseLogicController.swift */,
+				193E6EEE2B0B8A5D0014FB99 /* BaseTitleController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		193E6EF52B0BA7670014FB99 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				193E6EF82B0BA7880014FB99 /* ViewFactoryUtil.swift */,
+				193E6EFA2B0BA83C0014FB99 /* Constant.swift */,
+				193E6F002B0C9BE90014FB99 /* DefaultPreferenceUtil.swift */,
+				193E6F332B0E48F80014FB99 /* ParamUtil.swift */,
+				192497072B4BEEF6003AC407 /* ExceptionHandleUtil.swift */,
+				19F833DF2B60F41E00903F1D /* ResourceUtil.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		193E6EFC2B0BB23A0014FB99 /* Guide */ = {
+			isa = PBXGroup;
+			children = (
+				193E6EFD2B0BB24A0014FB99 /* Controller */,
+			);
+			path = Guide;
+			sourceTree = "<group>";
+		};
+		193E6EFD2B0BB24A0014FB99 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				193E6EFE2B0BB2720014FB99 /* GuideController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		193E6F022B0C9FC50014FB99 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				193E6F032B0C9FCE0014FB99 /* Controller */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		193E6F032B0C9FCE0014FB99 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				193E6F042B0C9FE00014FB99 /* MainController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		193E6F062B0CB3F30014FB99 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				193E6F072B0CB3FC0014FB99 /* Controller */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		193E6F072B0CB3FC0014FB99 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				193E6F082B0CB41C0014FB99 /* LoginHomeController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		193E6F0A2B0DC7C20014FB99 /* YJBannerView */ = {
+			isa = PBXGroup;
+			children = (
+				193E6F0B2B0DC7C20014FB99 /* Tools */,
+				193E6F0E2B0DC7C20014FB99 /* YJBannerView.m */,
+				193E6F0F2B0DC7C20014FB99 /* PageControls */,
+				193E6F172B0DC7C20014FB99 /* YJBannerView.h */,
+				193E6F182B0DC7C20014FB99 /* Resource */,
+				193E6F1A2B0DC7C20014FB99 /* Views */,
+			);
+			path = YJBannerView;
+			sourceTree = "<group>";
+		};
+		193E6F0B2B0DC7C20014FB99 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				193E6F0C2B0DC7C20014FB99 /* UIView+YJBannerViewExt.m */,
+				193E6F0D2B0DC7C20014FB99 /* UIView+YJBannerViewExt.h */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		193E6F0F2B0DC7C20014FB99 /* PageControls */ = {
+			isa = PBXGroup;
+			children = (
+				193E6F102B0DC7C20014FB99 /* YJHollowPageControl */,
+			);
+			path = PageControls;
+			sourceTree = "<group>";
+		};
+		193E6F102B0DC7C20014FB99 /* YJHollowPageControl */ = {
+			isa = PBXGroup;
+			children = (
+				193E6F112B0DC7C20014FB99 /* YJAnimatedDotView.h */,
+				193E6F122B0DC7C20014FB99 /* YJHollowPageControl.m */,
+				193E6F132B0DC7C20014FB99 /* YJAbstractDotView.m */,
+				193E6F142B0DC7C20014FB99 /* YJAnimatedDotView.m */,
+				193E6F152B0DC7C20014FB99 /* YJHollowPageControl.h */,
+				193E6F162B0DC7C20014FB99 /* YJAbstractDotView.h */,
+			);
+			path = YJHollowPageControl;
+			sourceTree = "<group>";
+		};
+		193E6F182B0DC7C20014FB99 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				193E6F192B0DC7C20014FB99 /* YJBannerView.bundle */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		193E6F1A2B0DC7C20014FB99 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				193E6F1B2B0DC7C20014FB99 /* YJBannerViewCollectionView.m */,
+				193E6F1C2B0DC7C20014FB99 /* YJBannerViewCell.m */,
+				193E6F1D2B0DC7C20014FB99 /* YJBannerViewFooter.h */,
+				193E6F1E2B0DC7C20014FB99 /* YJBannerViewCollectionView.h */,
+				193E6F1F2B0DC7C20014FB99 /* YJBannerViewFooter.m */,
+				193E6F202B0DC7C20014FB99 /* YJBannerViewCell.h */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		193E6F2C2B0E43B50014FB99 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				193E6F2D2B0E43DD0014FB99 /* DefaultService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		193E6F2F2B0E448E0014FB99 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				193E6F302B0E44940014FB99 /* Model */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		193E6F302B0E44940014FB99 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				193E6F312B0E449D0014FB99 /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		19A936D62B9AF0FE00402813 /* Toolbar */ = {
+			isa = PBXGroup;
+			children = (
+				19A936D72B9AF12700402813 /* SuperToolbarView.swift */,
+			);
+			path = Toolbar;
+			sourceTree = "<group>";
+		};
+		19AC74C52B0F97C8005679D6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				19D9A0942B46781C00965531 /* Response */,
+				19AC74C62B0F97F0005679D6 /* SheetListResponse.swift */,
+				19AC74C82B0F9911005679D6 /* PageResponse.swift */,
+				19D9A08E2B46744A00965531 /* BaseModel.swift */,
+				19D9A0902B4674CE00965531 /* BaseId.swift */,
+				19D9A0922B4674FA00965531 /* BaseCommon.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		19AC74CA2B0F9987005679D6 /* Sheet */ = {
+			isa = PBXGroup;
+			children = (
+				19AC74CB2B0F9991005679D6 /* Model */,
+			);
+			path = Sheet;
+			sourceTree = "<group>";
+		};
+		19AC74CB2B0F9991005679D6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				19AC74CC2B0F999D005679D6 /* Sheet.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		19AC74CE2B146E66005679D6 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				19AC74CF2B146E8E005679D6 /* ObservableMoyaExtension.swift */,
+				19F834002B6A1B4400903F1D /* StringExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		19C09A102B05055400156307 = {
+			isa = PBXGroup;
+			children = (
+				19C09A1B2B05055400156307 /* MyCloudMusic */,
+				19C09A322B05055600156307 /* MyCloudMusicTests */,
+				19C09A3C2B05055600156307 /* MyCloudMusicUITests */,
+				19C09A1A2B05055400156307 /* Products */,
+				8B85E9B2DB57108528A3F584 /* Pods */,
+				11AAE288234580DB5CC1A014 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		19C09A1A2B05055400156307 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				19C09A192B05055400156307 /* MyCloudMusic.app */,
+				19C09A2F2B05055600156307 /* MyCloudMusicTests.xctest */,
+				19C09A392B05055600156307 /* MyCloudMusicUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		19C09A1B2B05055400156307 /* MyCloudMusic */ = {
+			isa = PBXGroup;
+			children = (
+				19F833DA2B60EAD600903F1D /* Cell */,
+				192497092B4D2102003AC407 /* Repository */,
+				19AC74CE2B146E66005679D6 /* Extension */,
+				19AC74C52B0F97C8005679D6 /* Model */,
+				193E6F2C2B0E43B50014FB99 /* Service */,
+				193E6EF52B0BA7670014FB99 /* Util */,
+				193E6EE72B0B5C4B0014FB99 /* Controller */,
+				193E6EE22B08E4010014FB99 /* Config */,
+				193E6ECC2B063E0B0014FB99 /* Vender */,
+				19C09A4C2B05086300156307 /* Component */,
+				19C09A1C2B05055400156307 /* AppDelegate.swift */,
+				19C09A252B05055600156307 /* Assets.xcassets */,
+				193E6EE02B08E0740014FB99 /* R.generated.swift */,
+				19C09A272B05055600156307 /* LaunchScreen.storyboard */,
+				19C09A2A2B05055600156307 /* Info.plist */,
+				193E6ED52B06421E0014FB99 /* Localizable.strings */,
+				193E6EDC2B06433A0014FB99 /* InfoPlist.strings */,
+				193E6EF02B0B9C240014FB99 /* MyCloudMusic-Bridging-Header.h */,
+			);
+			path = MyCloudMusic;
+			sourceTree = "<group>";
+		};
+		19C09A322B05055600156307 /* MyCloudMusicTests */ = {
+			isa = PBXGroup;
+			children = (
+				19C09A332B05055600156307 /* MyCloudMusicTests.swift */,
+			);
+			path = MyCloudMusicTests;
+			sourceTree = "<group>";
+		};
+		19C09A3C2B05055600156307 /* MyCloudMusicUITests */ = {
+			isa = PBXGroup;
+			children = (
+				19C09A3D2B05055600156307 /* MyCloudMusicUITests.swift */,
+				19C09A3F2B05055600156307 /* MyCloudMusicUITestsLaunchTests.swift */,
+			);
+			path = MyCloudMusicUITests;
+			sourceTree = "<group>";
+		};
+		19C09A4C2B05086300156307 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				19F834042B6A6ECF00903F1D /* Song */,
+				19F833D12B57B11A00903F1D /* Room */,
+				19F833CD2B57B0F100903F1D /* Feed */,
+				19F833C92B57B0AE00903F1D /* Me */,
+				19F833C52B57B08600903F1D /* Video */,
+				19F833C12B57B03900903F1D /* Discovery */,
+				19D9A09D2B4680DD00965531 /* Ad */,
+				19AC74CA2B0F9987005679D6 /* Sheet */,
+				193E6F2F2B0E448E0014FB99 /* User */,
+				193E6F062B0CB3F30014FB99 /* Login */,
+				193E6F022B0C9FC50014FB99 /* Main */,
+				193E6EFC2B0BB23A0014FB99 /* Guide */,
+				19C09A4D2B05087300156307 /* Splash */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		19C09A4D2B05087300156307 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				19C09A4E2B05087E00156307 /* Controller */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		19C09A4E2B05087E00156307 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				19C09A4F2B05089700156307 /* SplashController.swift */,
+				193E6EF32B0B9E9F0014FB99 /* TermServiceDialogController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		19D9A0942B46781C00965531 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				19D9A0952B46782E00965531 /* ListResponse.swift */,
+				19D9A0972B46789900965531 /* BaseResponse.swift */,
+				19D9A0992B46790400965531 /* DetailResponse.swift */,
+				19D9A09B2B467A0D00965531 /* Meta.swift */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		19D9A09D2B4680DD00965531 /* Ad */ = {
+			isa = PBXGroup;
+			children = (
+				19D9A09E2B4680E300965531 /* Model */,
+			);
+			path = Ad;
+			sourceTree = "<group>";
+		};
+		19D9A09E2B4680E300965531 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				19D9A09F2B4680F800965531 /* Ad.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		19D9A0A12B4A8FF500965531 /* SuperUI */ = {
+			isa = PBXGroup;
+			children = (
+				19A936D62B9AF0FE00402813 /* Toolbar */,
+				19F833F82B663BF400903F1D /* Config */,
+				19F833F52B663B2800903F1D /* View */,
+				19F833EE2B6625AE00903F1D /* Image */,
+				19D9A0A22B4A8FFE00965531 /* Toast */,
+			);
+			path = SuperUI;
+			sourceTree = "<group>";
+		};
+		19D9A0A22B4A8FFE00965531 /* Toast */ = {
+			isa = PBXGroup;
+			children = (
+				192497052B4BC4A9003AC407 /* SuperToast.swift */,
+			);
+			path = Toast;
+			sourceTree = "<group>";
+		};
+		19F833C12B57B03900903F1D /* Discovery */ = {
+			isa = PBXGroup;
+			children = (
+				19F833E52B622C7A00903F1D /* View */,
+				19F833D92B60EAC000903F1D /* Cell */,
+				19F833D52B57D63700903F1D /* Model */,
+				19F833C22B57B04200903F1D /* Controller */,
+			);
+			path = Discovery;
+			sourceTree = "<group>";
+		};
+		19F833C22B57B04200903F1D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				19F833C32B57B06500903F1D /* DiscoveryController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		19F833C52B57B08600903F1D /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				19F833C62B57B08D00903F1D /* Controller */,
+			);
+			path = Video;
+			sourceTree = "<group>";
+		};
+		19F833C62B57B08D00903F1D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				19F833C72B57B09A00903F1D /* VideoController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		19F833C92B57B0AE00903F1D /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				19F833CA2B57B0B300903F1D /* Controller */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		19F833CA2B57B0B300903F1D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				19F833CB2B57B0BE00903F1D /* MeController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		19F833CD2B57B0F100903F1D /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				19F833CE2B57B0F700903F1D /* Controller */,
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		19F833CE2B57B0F700903F1D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				19F833CF2B57B10500903F1D /* FeedController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		19F833D12B57B11A00903F1D /* Room */ = {
+			isa = PBXGroup;
+			children = (
+				19F833D22B57B12100903F1D /* Controller */,
+			);
+			path = Room;
+			sourceTree = "<group>";
+		};
+		19F833D22B57B12100903F1D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				19F833D32B57B12C00903F1D /* RoomController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		19F833D52B57D63700903F1D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				19F833D62B57D63D00903F1D /* UI */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		19F833D62B57D63D00903F1D /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				19F833D72B57D65100903F1D /* BannerData.swift */,
+				19F833E32B62234F00903F1D /* ButtonData.swift */,
+				19F833EC2B66214400903F1D /* SheetData.swift */,
+				19F834082B6A709800903F1D /* SongData.swift */,
+				19A936D42B98569000402813 /* FooterData.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		19F833D92B60EAC000903F1D /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				19F833DD2B60ED8400903F1D /* BannerCell.swift */,
+				19F833E12B62224400903F1D /* DiscoveryButtonCell.swift */,
+				19F833E82B661D9B00903F1D /* SheetGroupCell.swift */,
+				19F833F32B663A4500903F1D /* SheetCell.swift */,
+				19F834022B6A6CD600903F1D /* SongGroupCell.swift */,
+				19F8340A2B6A72A300903F1D /* DiscoverySongCell.swift */,
+				19A936D22B9852AF00402813 /* DiscoveryFooterViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		19F833DA2B60EAD600903F1D /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				19F833DB2B60EB0900903F1D /* BaseTableViewCell.swift */,
+				19F833F12B66392900903F1D /* BaseCollectionViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		19F833E52B622C7A00903F1D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				19F833E62B622CA600903F1D /* DiscoveryButtonView.swift */,
+				19F833EA2B661F0600903F1D /* ItemTitleView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		19F833EE2B6625AE00903F1D /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				19F833EF2B6625D700903F1D /* SuperImageExtension.swift */,
+				19F833FB2B6A159D00903F1D /* ImageViewKingfisherExtension.swift */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		19F833F52B663B2800903F1D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				19F833F62B663B3E00903F1D /* ViewCornerExtension.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		19F833F82B663BF400903F1D /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				19F833F92B663C0300903F1D /* SuperConfig.swift */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		19F833FD2B6A166700903F1D /* String */ = {
+			isa = PBXGroup;
+			children = (
+				19F833FE2B6A167900903F1D /* SuperStringUtil.swift */,
+			);
+			path = String;
+			sourceTree = "<group>";
+		};
+		19F834042B6A6ECF00903F1D /* Song */ = {
+			isa = PBXGroup;
+			children = (
+				19F834052B6A6ED700903F1D /* Model */,
+			);
+			path = Song;
+			sourceTree = "<group>";
+		};
+		19F834052B6A6ED700903F1D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				19F834062B6A6EEF00903F1D /* Song.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8B85E9B2DB57108528A3F584 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6CA67AD63F4B0EC511FC3382 /* Pods-MyCloudMusic.debug.xcconfig */,
+				24531590674092FA1DEB045F /* Pods-MyCloudMusic.release.xcconfig */,
+				2B53CA8B2DE4E3CCF1E8F898 /* Pods-MyCloudMusic-MyCloudMusicUITests.debug.xcconfig */,
+				58979021BE914C5538BFF393 /* Pods-MyCloudMusic-MyCloudMusicUITests.release.xcconfig */,
+				D8FF1A79525F74086B28A40B /* Pods-MyCloudMusicTests.debug.xcconfig */,
+				0D7AA8E51741F735229C2317 /* Pods-MyCloudMusicTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		19C09A182B05055400156307 /* MyCloudMusic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19C09A432B05055600156307 /* Build configuration list for PBXNativeTarget "MyCloudMusic" */;
+			buildPhases = (
+				C4E0AF4B40B148EBF2E1E885 /* [CP] Check Pods Manifest.lock */,
+				193E6EDF2B08DD920014FB99 /* Run Script */,
+				19C09A152B05055400156307 /* Sources */,
+				19C09A162B05055400156307 /* Frameworks */,
+				19C09A172B05055400156307 /* Resources */,
+				5536ECA610708DA2C0E971A6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyCloudMusic;
+			productName = MyCloudMusic;
+			productReference = 19C09A192B05055400156307 /* MyCloudMusic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		19C09A2E2B05055600156307 /* MyCloudMusicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19C09A462B05055600156307 /* Build configuration list for PBXNativeTarget "MyCloudMusicTests" */;
+			buildPhases = (
+				9BDBD9179ED5AEBC5D84453F /* [CP] Check Pods Manifest.lock */,
+				19C09A2B2B05055600156307 /* Sources */,
+				19C09A2C2B05055600156307 /* Frameworks */,
+				19C09A2D2B05055600156307 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				19C09A312B05055600156307 /* PBXTargetDependency */,
+			);
+			name = MyCloudMusicTests;
+			productName = MyCloudMusicTests;
+			productReference = 19C09A2F2B05055600156307 /* MyCloudMusicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		19C09A382B05055600156307 /* MyCloudMusicUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19C09A492B05055600156307 /* Build configuration list for PBXNativeTarget "MyCloudMusicUITests" */;
+			buildPhases = (
+				459F9E2D265B14053FABE70B /* [CP] Check Pods Manifest.lock */,
+				19C09A352B05055600156307 /* Sources */,
+				19C09A362B05055600156307 /* Frameworks */,
+				19C09A372B05055600156307 /* Resources */,
+				B69EE35EAB70DAD2811103DE /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				19C09A3B2B05055600156307 /* PBXTargetDependency */,
+			);
+			name = MyCloudMusicUITests;
+			productName = MyCloudMusicUITests;
+			productReference = 19C09A392B05055600156307 /* MyCloudMusicUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		19C09A112B05055400156307 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					19C09A182B05055400156307 = {
+						CreatedOnToolsVersion = 14.3.1;
+						LastSwiftMigration = 1430;
+					};
+					19C09A2E2B05055600156307 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 19C09A182B05055400156307;
+					};
+					19C09A382B05055600156307 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 19C09A182B05055400156307;
+					};
+				};
+			};
+			buildConfigurationList = 19C09A142B05055400156307 /* Build configuration list for PBXProject "MyCloudMusic" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = 19C09A102B05055400156307;
+			productRefGroup = 19C09A1A2B05055400156307 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				19C09A182B05055400156307 /* MyCloudMusic */,
+				19C09A2E2B05055600156307 /* MyCloudMusicTests */,
+				19C09A382B05055600156307 /* MyCloudMusicUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		19C09A172B05055400156307 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19C09A292B05055600156307 /* LaunchScreen.storyboard in Resources */,
+				193E6EDA2B06433A0014FB99 /* InfoPlist.strings in Resources */,
+				193E6ED32B06421E0014FB99 /* Localizable.strings in Resources */,
+				19C09A262B05055600156307 /* Assets.xcassets in Resources */,
+				193E6F262B0DC7C30014FB99 /* YJBannerView.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19C09A2D2B05055600156307 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19C09A372B05055600156307 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		193E6EDF2B08DD920014FB99 /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT/R.generated.swift\"\n";
+		};
+		459F9E2D265B14053FABE70B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyCloudMusic-MyCloudMusicUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5536ECA610708DA2C0E971A6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyCloudMusic/Pods-MyCloudMusic-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyCloudMusic/Pods-MyCloudMusic-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyCloudMusic/Pods-MyCloudMusic-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9BDBD9179ED5AEBC5D84453F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyCloudMusicTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B69EE35EAB70DAD2811103DE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyCloudMusic-MyCloudMusicUITests/Pods-MyCloudMusic-MyCloudMusicUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyCloudMusic-MyCloudMusicUITests/Pods-MyCloudMusic-MyCloudMusicUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyCloudMusic-MyCloudMusicUITests/Pods-MyCloudMusic-MyCloudMusicUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4E0AF4B40B148EBF2E1E885 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyCloudMusic-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		19C09A152B05055400156307 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19F833E22B62224400903F1D /* DiscoveryButtonCell.swift in Sources */,
+				19C09A502B05089700156307 /* SplashController.swift in Sources */,
+				19F833D42B57B12C00903F1D /* RoomController.swift in Sources */,
+				192497062B4BC4A9003AC407 /* SuperToast.swift in Sources */,
+				19F833E92B661D9B00903F1D /* SheetGroupCell.swift in Sources */,
+				193E6EEF2B0B8A5D0014FB99 /* BaseTitleController.swift in Sources */,
+				19F833ED2B66214400903F1D /* SheetData.swift in Sources */,
+				193E6F232B0DC7C30014FB99 /* YJHollowPageControl.m in Sources */,
+				193E6F292B0DC7C30014FB99 /* YJBannerViewFooter.m in Sources */,
+				193E6EE62B08E7330014FB99 /* SuperUIThemeExtension.swift in Sources */,
+				19D9A0982B46789900965531 /* BaseResponse.swift in Sources */,
+				19F833D02B57B10500903F1D /* FeedController.swift in Sources */,
+				19F833E42B62234F00903F1D /* ButtonData.swift in Sources */,
+				19F8340B2B6A72A300903F1D /* DiscoverySongCell.swift in Sources */,
+				193E6F252B0DC7C30014FB99 /* YJAnimatedDotView.m in Sources */,
+				19F833F72B663B3E00903F1D /* ViewCornerExtension.swift in Sources */,
+				19AC74D02B146E8E005679D6 /* ObservableMoyaExtension.swift in Sources */,
+				192497082B4BEEF6003AC407 /* ExceptionHandleUtil.swift in Sources */,
+				19F833FA2B663C0300903F1D /* SuperConfig.swift in Sources */,
+				19D9A0932B4674FA00965531 /* BaseCommon.swift in Sources */,
+				19F833EB2B661F0600903F1D /* ItemTitleView.swift in Sources */,
+				19F833F22B66392900903F1D /* BaseCollectionViewCell.swift in Sources */,
+				19A936D82B9AF12700402813 /* SuperToolbarView.swift in Sources */,
+				193E6F272B0DC7C30014FB99 /* YJBannerViewCollectionView.m in Sources */,
+				193E6F092B0CB41C0014FB99 /* LoginHomeController.swift in Sources */,
+				193E6EE92B0B5C6A0014FB99 /* BaseController.swift in Sources */,
+				193E6EED2B0B81B50014FB99 /* BaseLogicController.swift in Sources */,
+				19F833E72B622CA600903F1D /* DiscoveryButtonView.swift in Sources */,
+				19F833FF2B6A167900903F1D /* SuperStringUtil.swift in Sources */,
+				193E6F212B0DC7C30014FB99 /* UIView+YJBannerViewExt.m in Sources */,
+				193E6F342B0E48F80014FB99 /* ParamUtil.swift in Sources */,
+				193E6ED02B063E5A0014FB99 /* SuperDateUtil.swift in Sources */,
+				193E6EE42B08E42B0014FB99 /* SuperUIColorExtension.swift in Sources */,
+				19F833F02B6625D700903F1D /* SuperImageExtension.swift in Sources */,
+				1924970B2B4D211A003AC407 /* DefaultRepository.swift in Sources */,
+				19F834072B6A6EEF00903F1D /* Song.swift in Sources */,
+				19F833CC2B57B0BE00903F1D /* MeController.swift in Sources */,
+				193E6F242B0DC7C30014FB99 /* YJAbstractDotView.m in Sources */,
+				19F833C42B57B06500903F1D /* DiscoveryController.swift in Sources */,
+				19F833D82B57D65100903F1D /* BannerData.swift in Sources */,
+				19AC74C72B0F97F0005679D6 /* SheetListResponse.swift in Sources */,
+				19F834012B6A1B4400903F1D /* StringExtension.swift in Sources */,
+				193E6EF42B0B9E9F0014FB99 /* TermServiceDialogController.swift in Sources */,
+				193E6F222B0DC7C30014FB99 /* YJBannerView.m in Sources */,
+				19F833DE2B60ED8400903F1D /* BannerCell.swift in Sources */,
+				19F833C82B57B09A00903F1D /* VideoController.swift in Sources */,
+				193E6F052B0C9FE00014FB99 /* MainController.swift in Sources */,
+				19F833FC2B6A159D00903F1D /* ImageViewKingfisherExtension.swift in Sources */,
+				193E6EEB2B0B5D3A0014FB99 /* BaseCommonController.swift in Sources */,
+				19F834032B6A6CD600903F1D /* SongGroupCell.swift in Sources */,
+				19F834092B6A709800903F1D /* SongData.swift in Sources */,
+				19D9A09A2B46790400965531 /* DetailResponse.swift in Sources */,
+				19AC74C92B0F9911005679D6 /* PageResponse.swift in Sources */,
+				193E6F282B0DC7C30014FB99 /* YJBannerViewCell.m in Sources */,
+				193E6F2B2B0E418A0014FB99 /* Config.swift in Sources */,
+				193E6F322B0E449D0014FB99 /* User.swift in Sources */,
+				19D9A09C2B467A0D00965531 /* Meta.swift in Sources */,
+				193E6EFB2B0BA83C0014FB99 /* Constant.swift in Sources */,
+				19D9A0A02B4680F800965531 /* Ad.swift in Sources */,
+				19A936D32B9852AF00402813 /* DiscoveryFooterViewCell.swift in Sources */,
+				193E6F012B0C9BEA0014FB99 /* DefaultPreferenceUtil.swift in Sources */,
+				193E6F2E2B0E43DD0014FB99 /* DefaultService.swift in Sources */,
+				19D9A0912B4674CE00965531 /* BaseId.swift in Sources */,
+				19D9A08F2B46744A00965531 /* BaseModel.swift in Sources */,
+				193E6EFF2B0BB2720014FB99 /* GuideController.swift in Sources */,
+				193E6EF92B0BA7880014FB99 /* ViewFactoryUtil.swift in Sources */,
+				19F833E02B60F41E00903F1D /* ResourceUtil.swift in Sources */,
+				19F833DC2B60EB0900903F1D /* BaseTableViewCell.swift in Sources */,
+				19C09A1D2B05055400156307 /* AppDelegate.swift in Sources */,
+				193E6EE12B08E0740014FB99 /* R.generated.swift in Sources */,
+				19AC74CD2B0F999D005679D6 /* Sheet.swift in Sources */,
+				19D9A0962B46782E00965531 /* ListResponse.swift in Sources */,
+				19F833F42B663A4500903F1D /* SheetCell.swift in Sources */,
+				19A936D52B98569000402813 /* FooterData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19C09A2B2B05055600156307 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19C09A342B05055600156307 /* MyCloudMusicTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19C09A352B05055600156307 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19C09A402B05055600156307 /* MyCloudMusicUITestsLaunchTests.swift in Sources */,
+				19C09A3E2B05055600156307 /* MyCloudMusicUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		19C09A312B05055600156307 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 19C09A182B05055400156307 /* MyCloudMusic */;
+			targetProxy = 19C09A302B05055600156307 /* PBXContainerItemProxy */;
+		};
+		19C09A3B2B05055600156307 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 19C09A182B05055400156307 /* MyCloudMusic */;
+			targetProxy = 19C09A3A2B05055600156307 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		193E6ED52B06421E0014FB99 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				193E6ED42B06421E0014FB99 /* en */,
+				193E6ED72B06423A0014FB99 /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		193E6EDC2B06433A0014FB99 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				193E6EDD2B0643460014FB99 /* zh-Hans */,
+				193E6EDE2B06434F0014FB99 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		19C09A272B05055600156307 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19C09A282B05055600156307 /* Base */,
+				193E6ED62B06423A0014FB99 /* zh-Hans */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		19C09A412B05055600156307 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		19C09A422B05055600156307 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		19C09A442B05055600156307 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CA67AD63F4B0EC511FC3382 /* Pods-MyCloudMusic.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MyCloudMusic/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wsw.MyCloudMusic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "MyCloudMusic/MyCloudMusic-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		19C09A452B05055600156307 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24531590674092FA1DEB045F /* Pods-MyCloudMusic.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MyCloudMusic/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wsw.MyCloudMusic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "MyCloudMusic/MyCloudMusic-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		19C09A472B05055600156307 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8FF1A79525F74086B28A40B /* Pods-MyCloudMusicTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wsw.MyCloudMusicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyCloudMusic.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MyCloudMusic";
+			};
+			name = Debug;
+		};
+		19C09A482B05055600156307 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D7AA8E51741F735229C2317 /* Pods-MyCloudMusicTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wsw.MyCloudMusicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyCloudMusic.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MyCloudMusic";
+			};
+			name = Release;
+		};
+		19C09A4A2B05055600156307 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B53CA8B2DE4E3CCF1E8F898 /* Pods-MyCloudMusic-MyCloudMusicUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wsw.MyCloudMusicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyCloudMusic;
+			};
+			name = Debug;
+		};
+		19C09A4B2B05055600156307 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58979021BE914C5538BFF393 /* Pods-MyCloudMusic-MyCloudMusicUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wsw.MyCloudMusicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyCloudMusic;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		19C09A142B05055400156307 /* Build configuration list for PBXProject "MyCloudMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19C09A412B05055600156307 /* Debug */,
+				19C09A422B05055600156307 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19C09A432B05055600156307 /* Build configuration list for PBXNativeTarget "MyCloudMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19C09A442B05055600156307 /* Debug */,
+				19C09A452B05055600156307 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19C09A462B05055600156307 /* Build configuration list for PBXNativeTarget "MyCloudMusicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19C09A472B05055600156307 /* Debug */,
+				19C09A482B05055600156307 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19C09A492B05055600156307 /* Build configuration list for PBXNativeTarget "MyCloudMusicUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19C09A4A2B05055600156307 /* Debug */,
+				19C09A4B2B05055600156307 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 19C09A112B05055400156307 /* Project object */;
+}
